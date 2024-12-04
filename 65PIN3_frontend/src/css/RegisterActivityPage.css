@@ -1,0 +1,77 @@
+.register-activity-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  /* height: 100vh;  */
+}
+
+.register-activity-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.register-activity-input-title {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 2px solid #4caf50;
+  font-size: 1.25rem;
+}
+
+.register-activity-textarea {
+  width: 95%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: none;
+}
+
+.register-activity-select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.register-activity-dates {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.register-activity-hours {
+  margin-bottom: 1rem;
+}
+
+.register-activity-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-activity-cancel-button,
+.register-activity-submit-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-activity-cancel-button {
+  background-color: #e0e0e0;
+}
+
+.register-activity-submit-button {
+  background-color: #4caf50;
+  color: #fff;
+}
